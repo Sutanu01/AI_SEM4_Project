@@ -1,0 +1,382 @@
+[
+    {   
+        "unit": "Unit 6: Sequence and Series",
+        "subtopic": "Geometric progressions",
+        "question_number": "Q1"
+    },
+    {
+        "unit": "Unit 9: Differential Equations",
+        "subtopic": "Solution of differential equations by separation of variables",
+        "question_number": "Q2"
+    },
+    {
+        "unit": "Unit 13: Statistics and Probability",
+        "subtopic": "Probability of an event, addition and multiplication theorems of probability, Baye's theorem",
+        "question_number": "Q3"
+    },
+    {
+        "unit": "Unit 9: Differential Equations",
+        "subtopic": "Solution of differential equations",
+        "question_number": "Q4"
+    },
+    {
+        "unit": "Unit 3: Matrices and Determinants",
+        "subtopic": "Area of triangles using determinants",
+        "question_number": "Q5"
+    },
+    {
+        "unit": "Unit 8: Integral Calculus",
+        "subtopic": "Evaluation of definite integrals",
+        "question_number": "Q6"
+    },
+    {
+        "unit": "Unit 10: Co-ordinate Geometry",
+        "subtopic": "Circle and conic sections: standard forms of equations, radius, center, and intersection with lines",
+        "question_number": "Q7"
+    },
+    {
+        "unit": "Unit 11: Three Dimensional Geometry",
+        "subtopic": "Skew lines and shortest distance between them",
+        "question_number": "Q8"
+    },
+    {
+        "unit": "Unit 7: Limit, Continuity, and Differentiability",
+        "subtopic": "Differentiation",
+        "question_number": "Q9"
+    },
+    {
+        "unit": "Unit 4: Permutations and Combinations",
+        "subtopic": "Permutations (P(m, r)) and Combinations (C(n, r))",
+        "question_number": "Q10"
+    },
+    {
+        "unit": "Unit 14: Trigonometry",
+        "subtopic": "Inverse trigonometrical functions and their properties",
+        "question_number": "Q11"
+    },
+    {
+        "unit": "Unit 9: Differential Equations",
+        "subtopic": "Solution of homogeneous and linear differential equations",
+        "question_number": "Q12"
+    },
+    {
+        "unit": "Unit 10: Coordinate Geometry",
+        "subtopic": "equations of lines, circles, and conic sections",
+        "question_number": "Q13"
+    },
+    {
+        "unit": "Unit 10: Coordinate Geometry",
+        "subtopic": "Circle and conic sections: standard forms of equations, radius, center, and intersection with lines",
+        "question_number": "Q14"
+    },
+    {
+        "unit": "Unit 13: Statistics and Probability",
+        "subtopic": "Probability distribution of a random variable",
+        "question_number": "Q16"
+    },
+    {
+        "unit": "Unit 1: Sets, Relations, and Functions",
+        "subtopic": "Relations (types, equivalence relations)",
+        "question_number": "Q17"
+    },
+    {
+        "unit": "Unit 10: Coordinate Geometry",
+        "subtopic": "Circle and conic sections: standard forms of equations, radius, center, intersection of lines and circles",
+        "question_number": "Q18"
+    },
+    {
+        "unit": "Unit 1: Sets, Relations, and Functions",
+        "subtopic": "Sets",
+        "question_number": "Q19"
+    },
+    {
+        "unit": "Unit 2: Complex Numbers and Quadratic Equations",
+        "subtopic": "Modulus and argument of a complex number, Algebra of complex numbers",
+        "question_number": "Q20"
+    },
+    {
+        "unit": "Unit 3: Matrices and Determinants",
+        "subtopic": "Adjoint and inverse of a square matrix",
+        "question_number": "Q21"
+    },
+    {
+        "unit": "Unit 6: Sequence and Series",
+        "subtopic": "Arithmetic and Geometric progressions",
+        "question_number": "Q22"
+    },
+    {
+        "unit": "Unit 12: Vector Algebra",
+        "subtopic": "Scalar and vector products",
+        "question_number": "Q23"
+    },
+    {
+        "unit": "Unit 7: Limit, Continuity, and Differentiability",
+        "subtopic": "Differentiation",
+        "question_number": "Q24"
+    },
+    {
+        "unit": "Unit 11: Three Dimensional Geometry",
+        "subtopic": "Equation of a line in 3D space",
+        "question_number": "Q25"
+    },
+    {
+        "unit": "Unit 11: Electrostatics",
+        "subtopic": "Electric field: electric field due to a point charge, electric field lines, and electric dipole",
+        "question_number": "Q26"
+    },
+    {
+        "unit": "Unit 12: Current Electricity",
+        "subtopic": "Internal resistance, potential difference, and emf of a cell, Combination of cells in series and parallel",
+        "question_number": "Q27"
+    },
+    {
+        "unit": "Unit 5: Rotational Motion",
+        "subtopic": "Moment of inertia",
+        "question_number": "Q28"
+    },
+    {
+        "unit": "Unit 9: Thermodynamics",
+        "subtopic": "First law of thermodynamics, isothermal and adiabatic processes",
+        "question_number": "Q29"
+    },
+    {
+        "unit": "Unit 2: Atomic Structure",
+        "subtopic": "Dual nature of matter and de Broglie's relationship",
+        "question_number": "Q30"
+    },
+    {
+        "unit": "Unit 4: Work, Energy and Power",
+        "subtopic": "Motion in a vertical circle",
+        "question_number": "Q31"
+    },
+    {
+        "unit": "Optics",
+        "subtopic": "Refraction of light at plane and spherical surfaces, thin lens formula, lens maker formula",
+        "question_number": "Q32"
+    },
+    {
+        "unit": "Unit 19: Electronic Devices",
+        "subtopic": "Semiconductor diode: I-V characteristics in forward and reverse bias",
+        "question_number": "Q33"
+    },
+    {
+        "unit": "Unit 12: Current Electricity",
+        "subtopic": "Series and parallel combinations of resistors, internal resistance, potential difference, and emf of a cell",
+        "question_number": "Q34"
+    },
+    {
+        "unit": "Unit 6: Gravitation",
+        "subtopic": "Universal law of gravitation",
+        "question_number": "Q35"
+    },
+    {
+        "unit": "Waves and Oscillations",
+        "subtopic": "Wave motion, longitudinal and transverse waves, speed of the traveling wave, displacement relation for a progressive wave, Principle of superposition of waves, reflection of waves, standing waves in strings and organ pipes",
+        "question_number": "Q36"
+    },
+    {
+        "unit": "Unit 13: Magnetic Effects of Current and Magnetism",
+        "subtopic": "Magnetic dipole moment, bar magnet as an equivalent solenoid, magnetic field lines",
+        "question_number": "Q37"
+    },
+    {
+        "unit": "Unit 6: Sequence and Series",
+        "subtopic": "Arithmetic and Geometric progressions",
+        "question_number": "Q2"
+    },
+    {
+        "unit": "Unit 11: Electrostatics",
+        "subtopic": "Electric flux, Gauss's law, and its applications",
+        "question_number": "Q38"
+    },
+    {
+        "unit": "Unit 1: Units and Measurements",
+        "subtopic": "Least count and significant figures",
+        "question_number": "Q39"
+    },
+    {
+        "unit": "Unit 17: Dual Nature of Matter and Radiation",
+        "subtopic": "Photoelectric effect",
+        "question_number": "Q40"
+    },
+    {
+        "unit": "Unit 9: Thermodynamics",
+        "subtopic": "Kinetic Theory of Gases: equation of state, work done on compressing a gas, and kinetic interpretation of temperature",
+        "question_number": "Q41"
+    },
+    {
+        "unit": "Optics",
+        "subtopic": "Combination of thin lenses in contact, refraction of light through a prism",
+        "question_number": "Q42"
+    },
+    {
+        "unit": "Wave Optics",
+        "subtopic": "Interference: Young's double-slit experiment",
+        "question_number": "Q43"
+    },
+    {
+        "unit": "Unit 11: Electrostatics",
+        "subtopic": "Capacitors and capacitance: combination of capacitors in series and parallel, and energy stored in a capacitor",
+        "question_number": "Q44"
+    },
+    {
+        "unit": "Unit 12: Current Electricity",
+        "subtopic": "Electrical energy and power, electrical resistivity and conductivity",
+        "question_number": "Q45"
+    },
+    {
+        "unit": "Unit 2: Kinematics",
+        "subtopic": "Relative velocity",
+        "question_number": "Q46"
+    },
+    {
+        "unit": "Unit 8: Fluid Mechanics and Thermodynamics",
+        "subtopic": "Surface energy and surface tension, angle of contact, and excess pressure across a curved surface",
+        "question_number": "Q47"
+    },
+    {
+        "unit": "Unit 5: Rotational Motion",
+        "subtopic": "Angular momentum",
+        "question_number": "Q48"
+    },
+    {
+        "unit": "Unit 12: Current Electricity",
+        "subtopic": "Series and parallel combinations of resistors, temperature dependence of resistance",
+        "question_number": "Q49"
+    },
+    {
+        "unit": "Unit 2: Kinematics",
+        "subtopic": "Projectile motion",
+        "question_number": "Q50"
+    },
+    {
+        "unit": "Unit 2: Atomic Structure",
+        "subtopic": "Bohr model of the hydrogen atom and its limitations",
+        "question_number": "Q51"
+    },
+    {
+        "unit": "Unit 15: Hydrocarbons",
+        "subtopic": "Alkenes: Geometrical isomerism, mechanism of electrophilic addition",
+        "question_number": "Q52"
+    },
+    {
+        "unit": "Unit 9: Thermodynamics",
+        "subtopic": "First law of thermodynamics, isothermal and adiabatic processes",
+        "question_number": "Q53"
+    },
+    {
+        "unit": "Unit 3: Chemical Bonding and Molecular Structure",
+        "subtopic": "Covalent bonding: electronegativity",
+        "question_number": "Q54"
+    },
+    {
+        "unit": "Unit 11: d- and f-Block Elements",
+        "subtopic": "Inner transition elements (lanthanoids, electronic configuration, oxidation states, and lanthanoid contraction)",
+        "question_number": "Q55"
+    },
+    {
+        "unit": "Unit 1: Some Basic Concepts in Chemistry",
+        "subtopic": "Chemical equations and stoichiometry",
+        "question_number": "Q56"
+    },
+    {
+        "unit": "Unit 17: Organic Compounds Containing Oxygen",
+        "subtopic": "Aldehydes and Ketones: carbonyl group, nucleophilic addition reactions, relative reactivities",
+        "question_number": "Q57"
+    },
+    {
+        "unit": "Unit 20: Principles Related to Practical Chemistry",
+        "subtopic": "Qualitative salt analysis: cations and anions",
+        "question_number": "Q58"
+    },
+    {
+        "unit": "Unit 20: Principles Related to Practical Chemistry",
+        "subtopic": "Preparation of inorganic and organic compounds",
+        "question_number": "Q0"
+    },
+    {
+        "unit": "Unit 16: Organic Compounds Containing Halogens",
+        "subtopic": "Mechanisms of substitution reactions",
+        "question_number": "Q59"
+    },
+    {
+        "unit": "Unit 19: Biomolecules",
+        "subtopic": "Vitamins: classification and functions",
+        "question_number": "Q60"
+    },
+    {
+        "unit": "Unit 9: Classification of Elements and Periodicity in Properties",
+        "subtopic": "Periodic trends in properties of elements (atomic and ionic radii, ionization enthalpy, electron gain enthalpy, valence, and chemical reactivity)",
+        "question_number": "Q61"
+    },
+    {
+        "unit": "Unit 18: Atoms and Nuclei",
+        "subtopic": "Nuclear fission and fusion",
+        "question_number": "Q62"
+    },
+    {
+        "unit": "Unit 17: Organic Compounds Containing Oxygen",
+        "subtopic": "Aldehydes and Ketones: carbonyl group, nucleophilic addition reactions, relative reactivities",
+        "question_number": "Q63"
+    },
+    {
+        "unit": "Unit 14: Basic Principles of Organic Chemistry",
+        "subtopic": "Isomerism: Structural and stereoisomerism",
+        "question_number": "Q64"
+    },
+    {
+        "unit": "Unit 6: Equilibrium",
+        "subtopic": "Equilibrium constants (Kp and Kc) and their significance",
+        "question_number": "Q65"
+    },
+    {
+        "unit": "Unit 7: Redox Reactions and Electrochemistry",
+        "subtopic": "Electrochemical cells and electrolytic conduction",
+        "question_number": "Q66"
+    },
+    {
+        "unit": "Unit 17: Organic Compounds Containing Oxygen",
+        "subtopic": "Carboxylic Acids: acidic strength and factors affecting it",
+        "question_number": "Q67"
+    },
+    {
+        "unit": "Unit 12: Coordination Compounds",
+        "subtopic": "6. Bonding: Valence bond approach and Crystal field theory",
+        "question_number": "Q68"
+    },
+    {
+        "unit": "Unit 5: Solutions",
+        "subtopic": "Colligative properties: elevation of boiling point",
+        "question_number": "Q69"
+    },
+    {
+        "unit": "Unit 12",
+        "subtopic": "Bonding: Valence bond approach and Crystal field theory",
+        "question_number": "Q70"
+    },
+    {
+        "unit": "Unit 9: Classification of Elements and Periodicity in Properties",
+        "subtopic": "Periodic trends in properties of elements (atomic and ionic radii, ionization enthalpy, electron gain enthalpy, valence, and chemical reactivity)",
+        "question_number": "Q71"
+    },
+    {
+        "unit": "Unit 8: Chemical Kinetics",
+        "subtopic": "Rate law and rate constant, Differential and integral forms of zero and first-order reactions",
+        "question_number": "Q72"
+    },
+    {
+        "unit": "Unit 14: Basic Principles of Organic Chemistry",
+        "subtopic": "Calculations of empirical and molecular formulae",
+        "question_number": "Q73"
+    },
+    {
+        "unit": "Kinetic theory of gases",
+        "subtopic": "Equation of state of a perfect gas, work done on compressing a gas",
+        "question_number": "Q74"
+    },
+    {
+        "unit": "Unit 3: Quantitative analysis",
+        "subtopic": "Estimation of halogens",
+        "question_number": "Q75"
+    }
+]
