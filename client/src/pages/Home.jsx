@@ -68,7 +68,7 @@ const Home = () => {
         }}
       >
         <a
-          href="https://github.com/Sutanu01"
+          href="https://github.com/Sutanu01/AI_SEM4_Project"
           target="_blank"
           rel="noopener noreferrer"
         >
