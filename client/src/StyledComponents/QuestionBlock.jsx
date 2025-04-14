@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import EastIcon from "@mui/icons-material/East";
+import DifficultyBlock from "./DifficultyBlock";
 const QuestionBlock = (props) => {
   const [showDetails, setShowDetails] = useState(false);
-  const { question_number, question, unit, subtopic, setInput } = props;
+  const { question_number, question, unit, subtopic, setInput,difficulty } = props;
 
   return (
     <div
@@ -27,7 +28,7 @@ const QuestionBlock = (props) => {
           fontSize: "1.2rem",
           display: "flex",
           justifyContent: "space-around",
-          alignItems: "center",
+          alignItems: "start",
         }}
       >
         <span
@@ -39,6 +40,8 @@ const QuestionBlock = (props) => {
           {question_number}
         </span>
         <span style={{ width: "85%" }}>{question}</span>
+        <div style={{display:"flex",flexDirection:"column",alignItems:"center",gap:"2rem",marginRight:"1rem"}}>
+        <DifficultyBlock difficulty={difficulty}/>
         <span
           style={{
             marginLeft: "1rem",
@@ -57,6 +60,7 @@ const QuestionBlock = (props) => {
         >
           <EastIcon />
         </span>
+        </div>
       </div>
       <div
         style={{

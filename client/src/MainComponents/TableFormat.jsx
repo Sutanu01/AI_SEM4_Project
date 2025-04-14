@@ -1,9 +1,10 @@
 import React from "react";
-import dummy_data1 from "../DummyData/dummy_data1";
+// import dummy_data1 from "../DummyData/dummy_data1";
 
-const TableFormat = ({ isOpen, onClose }) => {
+const TableFormat = (props) => {
+  const {isOpen,onClose,QuestionsArray}=props
   if (!isOpen) return null;
-
+  
   return (
     <div style={overlayStyle}>
       <div style={modalStyle}>
@@ -40,10 +41,10 @@ const TableFormat = ({ isOpen, onClose }) => {
               </tr>
             </thead>
             <tbody>
-              {dummy_data1.map((item, index) => (
+              {QuestionsArray.map((item, index) => (
                 <tr key={index} style={{ borderBottom: "1px solid #444" }}>
-                  <td style={tdStyle}>{item.question_number}</td>
-                  <td style={cellWrapStyle}>{item.question}</td>
+                  <td style={tdStyle}>{index+1}</td>
+                  <td style={cellWrapStyle}>{item.content}</td>
                   <td style={cellWrapStyle}>{item.unit}</td>
                   <td style={cellWrapStyle}>{item.subtopic}</td>
                 </tr>
