@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { processStreamBuffer } from '../utils/processStreamBuffer.js'
 
 const FileUpload = () => {
 	const [output, setOutput] = useState([])
@@ -16,35 +17,10 @@ const FileUpload = () => {
 		})
 
 		const reader = response.body.getReader()
-		const decoder = new TextDecoder('utf-8')
 
-		let buffer = ''
-
-		while (true) {
-			const { done, value } = await reader.read()
-			if (done) break
-
-			buffer += decoder.decode(value, { stream: true })
-
-			let lines = buffer.split('\n')
-
-			buffer = lines.pop()
-
-			for (let line of lines) {
-				if (line.trim() === '') continue
-
-				if (line.startsWith('data:')) {
-					line = line.replace(/^data:\s*/, '')
-				}
-
-				try {
-					const json = JSON.parse(line)
-					setOutput((prev) => [...prev, json])
-				} catch (err) {
-					console.error('Failed to parse JSON:', line)
-				}
-			}
-		}
+		await processStreamBuffer(reader, (json) =>
+			setOutput((prev) => [...prev, json])
+		)
 	}
 
 	return (
