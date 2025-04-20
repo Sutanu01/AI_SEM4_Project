@@ -1,5 +1,4 @@
 import React from "react";
-// import dummy_data1 from "../DummyData/dummy_data1";
 
 const TableFormat = (props) => {
   const {isOpen,onClose,QuestionsArray}=props
