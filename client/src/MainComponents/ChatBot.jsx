@@ -1,15 +1,23 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import MessageLoader from "../Loaders/MessageLoader";
 import ChatBotIcon from "../assets/chatbot.png";
 import { Close as CloseIcon } from "@mui/icons-material";
 import AddPhotoAlternateIcon from "@mui/icons-material/AddPhotoAlternate";
+import ChatBlock from "../StyledComponents/ChatBlock";
 
 const ChatBot = (props) => {
   const fileInputRef = useRef(null);
+  const chatEndRef = useRef(null);
   const { input, setInput } = props;
   const [messages, setMessages] = useState([]);
   const [SelectedImage, setSelectedImage] = useState(null);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (chatEndRef.current) {
+      chatEndRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [messages]);
 
   const handleIconClick = () => {
     fileInputRef.current.click();
@@ -86,7 +94,7 @@ const ChatBot = (props) => {
     <div
       style={{
         height: "100vh",
-        width: "50vw",
+        width: "55vw",
         color: "white",
         background: "linear-gradient(180deg, #000000 0%, #1a1a1a 100%)",
         display: "flex",
@@ -122,35 +130,10 @@ const ChatBot = (props) => {
           flexDirection: "column",
           gap: "1rem",
         }}
+        className="scrollable"
       >
         {messages.map((msg, index) => (
-          <div
-            key={index}
-            style={{
-              alignSelf: msg.sender === "user" ? "flex-end" : "flex-start",
-              backgroundColor: msg.sender === "user" ? "#4a90e2" : "#333",
-              color: "#fff",
-              padding: "0.7rem 1rem",
-              borderRadius: "1rem",
-              maxWidth: "70%",
-              wordWrap: "break-word",
-              display: "flex",
-              flexDirection: "column",
-              gap: "0.5rem",
-            }}
-          >
-            {msg.image && (
-              <img
-                src={msg.image}
-                alt="User upload"
-                style={{
-                  maxWidth: "100%",
-                  borderRadius: "0.5rem",
-                }}
-              />
-            )}
-            {msg.text}
-          </div>
+          <ChatBlock key={index} msg={msg} />
         ))}
 
         {loading && (
@@ -158,9 +141,12 @@ const ChatBot = (props) => {
             <MessageLoader />
           </div>
         )}
+
+        {/* Scroll Target */}
+        <div ref={chatEndRef} />
       </div>
 
-      {/* Selected Image Preview - Above Input */}
+      {/* Selected Image Preview */}
       {SelectedImage && (
         <div
           style={{
@@ -187,7 +173,7 @@ const ChatBot = (props) => {
           </div>
           <div
             style={{
-              background: "rgba(255,255,255,0.1)", // just the button has a subtle bg
+              background: "rgba(255,255,255,0.1)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -224,13 +210,11 @@ const ChatBot = (props) => {
             background: "rgba(255,255,255,0.1)",
             padding: "0.5rem",
             cursor: "pointer",
-            marginRight: "1rem",
+            marginRight: "0.5rem",
           }}
           onClick={handleIconClick}
         >
-          <AddPhotoAlternateIcon
-            style={{ width: "3rem", height: "2rem" }}
-          />
+          <AddPhotoAlternateIcon style={{ width: "3rem", height: "2rem" }} />
           <input
             type="file"
             ref={fileInputRef}

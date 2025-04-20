@@ -4,3 +4,26 @@
     margin: 0;
     font-family: "Space Mono";
 }
+.katex-display {
+    overflow-x: auto;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .scrollable {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #222;
+  }
+  .scrollable::-webkit-scrollbar {
+    width: 8px;
+  }
+  .scrollable::-webkit-scrollbar-track {
+    background: #222;
+    border-radius: 8px;
+  }
+  .scrollable::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+  }
+  .scrollable::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+  }

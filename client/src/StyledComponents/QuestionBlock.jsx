@@ -12,7 +12,7 @@ const QuestionBlock = (props) => {
       style={{
         backgroundColor: "rgb(70, 70, 70)",
         display: "flex",
-        width: "700px",
+        width: "630px",
         flexDirection: "column",
         border: "1px solid black",
         borderRadius: "1rem",

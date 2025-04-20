@@ -13,11 +13,10 @@ const MainPage = () => {
   const [QuestionsArray, setQuestionsArray] = useState([]);
   const navigate = useNavigate();
   const location = useLocation();
-  const lastFileRef = useRef(null);  // <== this will hold the last processed file
+  const lastFileRef = useRef(null);
 
   const handleLoadQuestions = async (file) => {
-    setQuestionsArray([]); // Clear previous questions before loading new ones
-
+    setQuestionsArray([]);
     const formData = new FormData();
     formData.append("pdf", file);
 
@@ -51,29 +50,6 @@ const MainPage = () => {
 
   return (
     <>
-      <style>
-        {`
-          .scrollable {
-            scrollbar-width: thin;
-            scrollbar-color: #888 #222;
-          }
-          .scrollable::-webkit-scrollbar {
-            width: 8px;
-          }
-          .scrollable::-webkit-scrollbar-track {
-            background: #222;
-            border-radius: 8px;
-          }
-          .scrollable::-webkit-scrollbar-thumb {
-            background: #888;
-            border-radius: 8px;
-          }
-          .scrollable::-webkit-scrollbar-thumb:hover {
-            background: #aaa;
-          }
-        `}
-      </style>
-
       <div
         style={{
           display: "flex",
@@ -89,7 +65,7 @@ const MainPage = () => {
               display: "flex",
               flexDirection: "column",
               height: "100vh",
-              width: "50vw",
+              width: "45vw",
               borderRight: "1px solid rgba(0, 0, 0, 0.7)",
             }}
           >

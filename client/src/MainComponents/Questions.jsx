@@ -1,7 +1,6 @@
 import React from "react";
-import Loading from "../StyledComponents/Loader";
+import Loading from "../Loaders/QuestionLoader"
 import QuestionBlock from "../StyledComponents/QuestionBlock";
-// import dummy_data1 from '../DummyData/dummy_data1';
 
 const Questions = (props) => {
 	const { setInput, QuestionsArray } = props;
@@ -38,8 +37,6 @@ const Questions = (props) => {
 						position: "relative",
 					}}
 				>
-					{console.log(QuestionsArray)}
-					{console.log(QuestionsArray.length)}
 					<Loading />
 				</div>
 			)}

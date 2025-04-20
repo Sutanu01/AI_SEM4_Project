@@ -30,8 +30,6 @@ const Home = () => {
   };
   const handleSubmit = async () => {
     if (selectedFile) {
-      // setWaiting(true);
-      //   setWaiting(false);
         navigate('/learning', { state: { file: selectedFile } });
     }
   };
